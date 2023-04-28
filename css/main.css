@@ -169,3 +169,46 @@ footer span {
 	color: #45610E;
 	font-size: 14px;
 }
+
+/***** Media *****/
+
+@media all and (min-width: 768px){
+	/***** Tablet *****/
+	.bottom-section, .content-wrapper {
+		justify-content: space-evenly;
+	}
+	.section-two {
+		padding: 0 15px;
+	}
+}
+@media all and (min-width: 1200px) {
+    /* Desktop styles here */
+	body {
+		font-size: 1em;	
+	}
+
+
+	
+	header h1 {
+		width: 75%;
+		padding: 15px;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	nav {
+		display:flex;
+		width: 21%;
+		align-items: center;
+	}
+
+	header .content-wrapper {
+		justify-content: right;
+		align-items: center;
+		padding: 0 10px;
+	}
+	header nav ul {
+	display: flex;
+	justify-content: space-between;
+	}
+}
